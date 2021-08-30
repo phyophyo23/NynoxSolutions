@@ -13,10 +13,10 @@ body {
   background: #fff;
   background: #f5f8fd;
   color: #444;
-  /* Font-family:sans-serif; */
-  /* font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  Font-family:sans-serif;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-style: normal;
-  font-variant: normal; */
+  font-variant: normal;
   font-family: "new century schoolbook";
   }
 
@@ -38,10 +38,10 @@ p {
   padding: 0;
   margin: 0 0 20px 0;
   text-align:justify;
-  /* text-indent: 50px; */
-  /* font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-indent: 50px;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-style: normal;
-  font-variant: normal; */
+  font-variant: normal;
   font-family: "new century schoolbook";
 
 }
@@ -234,23 +234,23 @@ h6 {
   max-width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/Helping Hand.PNG") center top no-repeat;
+  background: #f5f8fd url("../img/Helping Hand.jpg") center top no-repeat;
   background-size: cover;
   max-height:100%;
   }
 
 
 #intro .intro-info h2,h3 {
-  /* color: #1bb1dc;
+  color: #1bb1dc;
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: 600;
-  margin-top: 50px;
-  margin-left: 529px;
-  Font-family:sans-serif; */
+  margin-top: 10px;
+  margin-left: 650px;
+  Font-family:sans-serif;
   font-family: "new century schoolbook";
   color: #19A0EE;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   font-weight: 700;
 }
 
