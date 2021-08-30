@@ -168,7 +168,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 110px;
+  height: 70px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -180,7 +180,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   font-family: "new century schoolbook";
-  /* background-color: #f5f8fd; */
+  background-color: #f5f8fd;
 }
 
 #header.header-scrolled,
@@ -235,6 +235,7 @@ h6 {
   height: 100vh;
   position: relative;
   background: #f5f8fd url("../img/Helping Hand.jpg") center top no-repeat;
+  background-color: white;
   background-size: cover;
   max-height:100%;
   }
@@ -246,7 +247,7 @@ h6 {
   font-size: 25px;
   font-weight: 600;
   margin-top: 10px;
-  margin-left: 650px;
+  /* margin-left: 650px; */
   Font-family:sans-serif;
   font-family: "new century schoolbook";
   color: #19A0EE;
@@ -279,7 +280,7 @@ h6 {
   color: #fff;
   background: #1bb1dc;
   color: #fff;
-  /* margin-left: 400px; */
+  
 }
 
 #intro .intro-info .btn-get-started:hover,
@@ -329,7 +330,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 600;
   font-family: "new century schoolbook";
-  margin-top: 3px;
+  /* margin-top: 3px; */
   }
 
 .main-nav a:hover,
