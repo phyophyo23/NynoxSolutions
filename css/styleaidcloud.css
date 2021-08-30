@@ -56,6 +56,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  float: right;
 
 }
 
@@ -252,7 +253,7 @@ h6 {
   font-family: "new century schoolbook";
   color: #19A0EE;
   margin-bottom: 100px;
-  font-weight: 700;
+  
 }
 
 #intro .image  {
@@ -291,6 +292,10 @@ h6 {
 #intro .a{
   text-transform: uppercase;
   /* Font-family:sans-serif; */
+}
+
+#intro .h5{
+ float: right;
 }
 
 
@@ -1725,12 +1730,6 @@ h6 {
 
 .card{
   border-bottom: none;
-}
-
-
-h1,h2,h3,h4,h5
-{text-transform:capitalize;
-  margin-bottom: 5px;
 }
 
 a:hover
