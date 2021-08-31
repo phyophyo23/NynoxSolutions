@@ -236,24 +236,24 @@ h6 {
   height: 100vh;
   position: relative;
   background: #f5f8fd url("../img/Helping Hand.jpg") center top no-repeat;
-  background-color: white;
   background-size: cover;
   max-height:100%;
   }
 
 
 #intro .intro-info h2,h3 {
-  color: #1bb1dc;
+  /* color: #1bb1dc;
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: 600;
-  margin-top: 200px;
-  /* margin-left: 650px; */
-  Font-family:sans-serif;
+  margin-top: 50px;
+  margin-left: 529px;
+  Font-family:sans-serif; */
   font-family: "new century schoolbook";
-  color: #19A0EE;
-  /* margin-bottom: 100px; */
-  
+  color: #19A0EE;  
+  margin-bottom: 40px;
+  font-weight: 700;
+  margin-top: 200px;
 }
 
 #intro .image  {
