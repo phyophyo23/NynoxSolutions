@@ -629,16 +629,18 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
-  margin-top: 50px;
-  background-color: #f5f8fd;
+  /* margin-top: 50px; */
+  background-color: rgb(66, 101, 160);
 }
 
 #services p {
-  font-size: 24px;
+  font-size: 25px;
   line-height: 24px;
   margin-bottom: 0;
-  color: #535074;
+  color: #fafafd;
   text-align: center;
+  margin-top: 100px;
+  line-height: 1.8;
   
 }
 
@@ -695,6 +697,7 @@ h6 {
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
+  text-indent: 0;
 }
 
 
