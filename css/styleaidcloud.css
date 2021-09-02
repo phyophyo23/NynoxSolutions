@@ -633,6 +633,15 @@ h6 {
   background-color: #f5f8fd;
 }
 
+#services p {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #535074;
+  text-align: center;
+  
+}
+
 #services .box {
   padding: 30px;
   position: relative;
@@ -1095,14 +1104,22 @@ h6 {
 
 #clients {
   padding: 0px 0;
+  background-color: #fff;
 }
 
 #clients img {
   max-width: 20%;
   max-height: 10%;
-  /* opacity: 0.5; */
-  /* transition: 0.3s; */
   padding: 15px 0;
+}
+
+#clients p {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #535074;
+  text-align: center;
+  
 }
 
 #clients .owl-nav,
@@ -1123,6 +1140,22 @@ h6 {
 #clients .owl-dot.active {
   background-color: #1bb1dc;
 }
+
+/* visual Section
+--------------------------------*/
+
+#visual {
+  padding: 0px 0;
+  background-color: #fff;
+}
+
+#visual img {
+  max-width: 100%;
+  max-height: 80%;
+  padding: 15px 0;
+}
+
+
 
 /* Pricing Section
 --------------------------------*/
