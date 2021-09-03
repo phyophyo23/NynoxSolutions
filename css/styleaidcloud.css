@@ -242,13 +242,13 @@ h6 {
 
 #intro .intro-info h2,h3 { 
   font-family: "new century schoolbook";  
-  margin-bottom: 40px;
-  font-weight: 500;
+  /* margin-bottom: 40px; */
+  font-weight: 700;
   /* background: rgba(121, 121, 133, 0.3);
   width: 40%;
   height: 35%; */
   color: rgb(33,68,113);
-  margin-top: 100px;
+  margin-top: 130px;
   line-height: 1.8;
 }
 
@@ -546,7 +546,7 @@ h6 {
 /* About Us Section
 --------------------------------*/
 
-#about {
+/* #about {
   padding: 80px 0;
 }
 
@@ -622,7 +622,7 @@ h6 {
   content: '';
   background-color: #ebf1fa;
   transition: .5s;
-}
+} */
 
 /* Services Section
 --------------------------------*/
@@ -1117,11 +1117,13 @@ h6 {
 }
 
 #clients p {
-  font-size: 25px;
+  font-size: 35px;
   line-height: 24px;
+  font-weight: 500;
   margin-bottom: 0;
   color: #535074;
   text-align: center;
+  line-height: 1.5;
   
 }
 
@@ -1156,6 +1158,70 @@ h6 {
   max-width: 100%;
   max-height: 80%;
   padding: 15px 0;
+}
+
+/* visual Section
+--------------------------------*/
+
+#about {
+  max-width: 100%;
+  height: 100vh;  
+  position: relative;
+  background: #f5f8fd url("../img/help.jpg") center top no-repeat;
+  background-size: cover;
+  max-height:100%;
+  }
+
+
+#about .about-info h2,h3 { 
+  font-family: "new century schoolbook";  
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+  line-height: 1.8;
+}
+
+#about image  {
+  width: 20px;
+  height: 5px;
+
+}
+
+#about .about-info h2 span {
+  color: #003399;
+
+ }
+
+#about .about-info .btn-get-started,
+#about .about-info .btn-services {
+  /* Font-family:sans-serif; */
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+  
+}
+
+#about.about-info .btn-get-started:hover,
+#about .about-info .btn-services:hover {
+  background: #0a98c0;
+}
+
+#about .a{
+  text-transform: lowercase;
+  /* Font-family:sans-serif; */
+}
+
+#about .h5{
+ float: right;
 }
 
 
@@ -1567,12 +1633,12 @@ h6 {
 --------------------------------------------------------------*/
 
 #how {
-  font-family: "new century schoolbook";
-  padding: 0 0 30px 0;
-  font-size: 23px;
-  /* background: #fff; */
-  background-color: rgb(82, 109, 145);
-  color: #fff;
+  max-width: 100%;
+  height: 140vh;  
+  position: relative;
+  background: #f5f8fd url("../img/Humanitarian2.png") center top no-repeat;
+  background-size: cover;
+  max-height:100%;
 
 }
 
